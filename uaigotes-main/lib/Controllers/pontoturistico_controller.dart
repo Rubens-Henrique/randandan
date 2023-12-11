@@ -37,7 +37,7 @@ class PontoTuristicoController extends ChangeNotifier {
           position: LatLng(ponto.latitude, ponto.longitude),
           icon: await BitmapDescriptor.fromAssetImage(
             ImageConfiguration(),
-            'images/turistico.png',
+            'assets/images/turistico.png',
           ),
           onTap: () => {
             showModalBottomSheet(
